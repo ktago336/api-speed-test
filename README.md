@@ -29,4 +29,4 @@ Melory birthdays are only in those days, which Bob or Alice have birthdays
 <br>
 In response, if some of characters' birthday is 0, no character can be passed, so if "Bad day" occured, "birthdays" field can be empty
 <br>
-enough_gifts must be actual eeven if "Bad day(" occured
+enough_gifts must be actual eeven if "Bad day((((" occured
