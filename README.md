@@ -5,6 +5,7 @@ serverData.json is object. Melory_birthdays is enum ("odd"|"even"), representing
 days_group is number of days to group birthdays (if days_group==7, means grouping birthdays for weeks,
 starting from most early day). number_of_gifts_per_days_group represents number of gifts available for each day group
 (if there are 7 bithdays at one week and number_of_gifts_per_days_group == 5 means there are not enough gifts for this week)
+names field represents tracked names (so not only Bob and Alice are in game!)
 
 response structure must be<br><br>
 <pre>
@@ -22,4 +23,10 @@ response structure must be<br><br>
 </pre>
 
 Remember, data[n].events can contain any string, need to check if name Alice|Bob is in the string.<pre>
-If there a bad day in the days_group, the full group fails its burthdays and "birtdays" propery mus be {"Melory":0, "Alice":0, "Bob":0}
+If there a bad day in the days_group, the full group fails its burthdays and "birtdays" propery must be {"Melory":0, "Alice":0, "Bob":0}
+<br>
+Melory birthdays are only in those days, which Bob or Alice have birthdays
+<br>
+In response, if some of characters' birthday is 0, no character can be passed, so if "Bad day" occured, "birthdays" field can be empty
+<br>
+enough_gifts must be actual eeven if "Bad day((((" occured
