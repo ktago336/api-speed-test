@@ -5,6 +5,7 @@ serverData.json is object. Melory_birthdays is enum ("odd"|"even"), representing
 days_group is number of days to group birthdays (if days_group==7, means grouping birthdays for weeks,
 starting from most early day). number_of_gifts_per_days_group represents number of gifts available for each day group
 (if there are 7 bithdays at one week and number_of_gifts_per_days_group == 5 means there are not enough gifts for this week)
+names field represents tracked names (so not only Bob and Alice are in game!)
 
 response structure must be<br><br>
 <pre>
