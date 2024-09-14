@@ -22,6 +22,8 @@ response structure must be<br><br>
 </pre>
 
 Remember, data[n].events can contain any string, need to check if name Alice|Bob is in the string.<pre>
-If there a bad day in the days_group, the full group fails its burthdays and "birtdays" propery mus be {"Melory":0, "Alice":0, "Bob":0}
-
+If there a bad day in the days_group, the full group fails its burthdays and "birtdays" propery must be {"Melory":0, "Alice":0, "Bob":0}
+<br>
 Melory birthdays are only in those days, which Bob or Alice have birthdays
+<br>
+In response, if some of characters' birthday is 0, no character can be passed, so if "Bad day" occured, "birthdays" field can be empty
