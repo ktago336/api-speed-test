@@ -1,5 +1,6 @@
 {
   "Melory_birthdays": "even",
   "days_group": 7,
-  "number_of_gifts_per_days_group": 5
+  "number_of_gifts_per_days_group": 5,
+    "names": ["Alice","Bob","Mark"]
 }
