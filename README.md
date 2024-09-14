@@ -23,3 +23,5 @@ response structure must be<br><br>
 
 Remember, data[n].events can contain any string, need to check if name Alice|Bob is in the string.<pre>
 If there a bad day in the days_group, the full group fails its burthdays and "birtdays" propery mus be {"Melory":0, "Alice":0, "Bob":0}
+
+Melory birthdays are only in those days, which Bob or Alice have birthdays
